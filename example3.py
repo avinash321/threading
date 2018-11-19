@@ -13,8 +13,8 @@ def target_fun(i):
 l = ['abc','def','xyz','ramu','somu','ravi','ajay']
 for i in l:
     t1 = Thread(target=target_fun,args=(i,))
-    #t1.run()     # Which takes considerable time
-    t1.start()   # With help of threading , executio will be faster
+    #t1.run()     # Which takes considerable amount of time
+    t1.start()   # With help of threading , execution will be faster
 
 
 
